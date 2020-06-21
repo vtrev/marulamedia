@@ -1,0 +1,115 @@
+.jumbotron {
+    background-image: url('./images/logo-large.jpg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: white;
+    min-height: 100vh;
+    /* opacity: 1; */
+}
+
+.service-wrapper {
+    /* Here's the trick */
+    background: linear-gradient(rgba(33, 37, 41, .99), rgba(33, 37, 41, .99)),
+        var(--image-url) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    /* Here's the same styles we applied to our content-div earlier */
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+section {
+    padding-top: 4rem;
+}
+
+#section-newsletter {
+    padding-top: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(91, 142, 10);
+}
+
+p {
+    color: rgb(59, 36, 22);
+}
+
+.marula-green {
+    color: rgb(91, 142, 10);
+}
+
+.marula-green-bg {
+    background-color: rgb(91, 142, 10) !important;
+}
+
+.marula-brown-bg {
+    background-color: rgb(59, 36, 22);
+}
+
+.inner-w-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.outer-w-bg {
+    position: relative;
+
+}
+
+.navbar-brand img {
+    width: 56%;
+}
+
+.navy-nav {
+    background-color: rgb(33, 37, 41);
+}
+
+
+.service-wrapper li,
+.service-wrapper p,
+.service-wrapper h3,
+.service-wrapper h2 {
+    color: white;
+}
+
+footer,
+footer a,
+footer h5 {
+    color: black;
+}
+
+footer a:hover {
+    color: rgb(91, 142, 10);
+    text-decoration: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 250px;
+}
