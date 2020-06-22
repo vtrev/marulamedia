@@ -34,7 +34,10 @@ h6 {
     color: rgb(91, 142, 10);
 }
 
-p {
+p,
+footer,
+footer a,
+footer h5 {
     color: rgb(59, 36, 22);
 }
 
@@ -80,11 +83,11 @@ p {
     color: white;
 }
 
-footer,
+/* footer,
 footer a,
 footer h5 {
     color: black;
-}
+} */
 
 footer a:hover {
     color: rgb(91, 142, 10);
