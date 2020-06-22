@@ -8,8 +8,10 @@
     min-height: 100vh;
 }
 
+/* 33, 37, 41, */
+
 .service-wrapper {
-    background: linear-gradient(rgba(33, 37, 41, .99), rgba(33, 37, 41, .99)),
+    background: linear-gradient(rgba(59, 36, 22, .99), rgba(59, 36, 22, .99)),
         var(--image-url) center center;
     background-size: contain;
     background-repeat: no-repeat;
