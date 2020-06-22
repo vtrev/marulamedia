@@ -6,35 +6,18 @@
     background-repeat: no-repeat;
     background-color: white;
     min-height: 100vh;
-    /* opacity: 1; */
 }
 
 .service-wrapper {
-    /* Here's the trick */
     background: linear-gradient(rgba(33, 37, 41, .99), rgba(33, 37, 41, .99)),
         var(--image-url) center center;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
-    /* Here's the same styles we applied to our content-div earlier */
-    color: white;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-
-
 
 section {
     padding-top: 4rem;
-}
-
-#section-newsletter {
-    padding-top: 0;
 }
 
 body {
