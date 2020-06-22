@@ -11,7 +11,7 @@
 /* 33, 37, 41, */
 
 .service-wrapper {
-    background: linear-gradient(rgba(59, 36, 22, .99), rgba(59, 36, 22, .99)),
+    background: linear-gradient(rgba(91, 142, 10, .99), rgba(91, 142, 10, .99)),
         var(--image-url) center center;
     background-size: contain;
     background-repeat: no-repeat;
