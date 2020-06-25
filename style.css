@@ -18,6 +18,16 @@
     background-attachment: fixed;
 }
 
+.top-section-wrapper {
+
+    background: linear-gradient(rgba(54, 58, 58, .5), rgba(54, 58, 58, .5)),
+        var(--image-url) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
 section {
     padding-top: 4rem;
 }
